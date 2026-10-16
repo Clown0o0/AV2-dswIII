@@ -1,5 +1,19 @@
 # AutoManager — API de Clientes
 
+[![CI](https://github.com/Clown0o0/AV2-dswIII/actions/workflows/ci.yml/badge.svg)](https://github.com/Clown0o0/AV2-dswIII/actions/workflows/ci.yml)
+![Java](https://img.shields.io/badge/Java-v17-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-v2.6.3-6DB33F?style=flat&logo=springboot&logoColor=white)
+![Spring MVC](https://img.shields.io/badge/Spring%20MVC-v5.3.15-6DB33F?style=flat&logo=spring&logoColor=white)
+![Spring HATEOAS](https://img.shields.io/badge/Spring%20HATEOAS-v1.4.1-6DB33F?style=flat&logo=spring&logoColor=white)
+![Spring Data JPA](https://img.shields.io/badge/Spring%20Data%20JPA-v2.6.1-6DB33F?style=flat&logo=spring&logoColor=white)
+![Hibernate](https://img.shields.io/badge/Hibernate-v5.6.4.Final-59666C?style=flat&logo=hibernate&logoColor=white)
+![Tomcat](https://img.shields.io/badge/Tomcat-v9.0.56-F8DC75?style=flat&logo=apachetomcat&logoColor=black)
+![Lombok](https://img.shields.io/badge/Lombok-v1.18.46-BC4521?style=flat)
+![Maven](https://img.shields.io/badge/Maven-v3.8.4-C71A36?style=flat&logo=apachemaven&logoColor=white)
+![MySQL Connector/J](https://img.shields.io/badge/MySQL%20Connector%2FJ-v8.0.28-4479A1?style=flat&logo=mysql&logoColor=white)
+![H2](https://img.shields.io/badge/H2-v1.4.200-1F5D99?style=flat)
+![JUnit](https://img.shields.io/badge/JUnit-v5.8.2-25A162?style=flat&logo=junit5&logoColor=white)
+
 > API REST em **Spring Boot** para cadastro e gerenciamento de clientes, com seus documentos, endereço e telefones.
 
 ---
@@ -8,17 +22,16 @@
 
 1. [Objetivo](#objetivo)
 2. [Organização do código](#organização-do-código)
-3. [Stack](#stack)
-4. [Executando localmente](#executando-localmente)
-5. [Níveis de maturidade (RMM)](#níveis-de-maturidade-rmm)
-6. [Rotas](#rotas)
-7. [Links HATEOAS](#links-hateoas)
-8. [Exemplo de requisição](#exemplo-de-requisição)
-9. [Exemplo de resposta](#exemplo-de-resposta)
-10. [Formas de cadastro](#formas-de-cadastro)
-11. [Validações e erros](#validações-e-erros)
-12. [Notas](#notas)
-13. [Autor](#autor)
+3. [Executando localmente](#executando-localmente)
+4. [Níveis de maturidade (RMM)](#níveis-de-maturidade-rmm)
+5. [Rotas](#rotas)
+6. [Links HATEOAS](#links-hateoas)
+7. [Exemplo de requisição](#exemplo-de-requisição)
+8. [Exemplo de resposta](#exemplo-de-resposta)
+9. [Formas de cadastro](#formas-de-cadastro)
+10. [Validações e erros](#validações-e-erros)
+11. [Notas](#notas)
+12. [Autor](#autor)
 
 ---
 
@@ -45,20 +58,6 @@ com.autobots.automanager
 ├── modelo         # utilitários de atualização/seleção e AdicionadorLink* (HATEOAS)
 └── exception      # handler global de erros
 ```
-
-## Stack
-
-| Item                 | Versão                                   |
-| -------------------- | ---------------------------------------- |
-| Java (JDK)           | 17 (também testado no 26)                |
-| Spring Boot          | 2.6.3                                    |
-| Spring MVC           | 5.3.15 (Tomcat embutido 9.0.56)          |
-| Spring HATEOAS       | 1.4.1 (formato HAL)                      |
-| Spring Data JPA      | Hibernate 5.6.4.Final                    |
-| Lombok               | 1.18.46                                  |
-| Maven                | 3.8.4 (via wrapper `mvnw`, já incluso)   |
-| Banco de dados       | MySQL 8 (driver `mysql-connector-java` 8.0.28) |
-| Banco alternativo    | H2 1.4.200 (em memória, para testes)     |
 
 ## Executando localmente
 
