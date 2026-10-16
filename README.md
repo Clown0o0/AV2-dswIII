@@ -3,16 +3,10 @@
 [![CI](https://github.com/Clown0o0/AV2-dswIII/actions/workflows/ci.yml/badge.svg)](https://github.com/Clown0o0/AV2-dswIII/actions/workflows/ci.yml)
 ![Java](https://img.shields.io/badge/Java-v17-ED8B00?style=flat&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-v2.6.3-6DB33F?style=flat&logo=springboot&logoColor=white)
-![Spring MVC](https://img.shields.io/badge/Spring%20MVC-v5.3.15-6DB33F?style=flat&logo=spring&logoColor=white)
 ![Spring HATEOAS](https://img.shields.io/badge/Spring%20HATEOAS-v1.4.1-6DB33F?style=flat&logo=spring&logoColor=white)
-![Spring Data JPA](https://img.shields.io/badge/Spring%20Data%20JPA-v2.6.1-6DB33F?style=flat&logo=spring&logoColor=white)
-![Hibernate](https://img.shields.io/badge/Hibernate-v5.6.4.Final-59666C?style=flat&logo=hibernate&logoColor=white)
-![Tomcat](https://img.shields.io/badge/Tomcat-v9.0.56-F8DC75?style=flat&logo=apachetomcat&logoColor=black)
 ![Lombok](https://img.shields.io/badge/Lombok-v1.18.46-BC4521?style=flat)
 ![Maven](https://img.shields.io/badge/Maven-v3.8.4-C71A36?style=flat&logo=apachemaven&logoColor=white)
 ![MySQL Connector/J](https://img.shields.io/badge/MySQL%20Connector%2FJ-v8.0.28-4479A1?style=flat&logo=mysql&logoColor=white)
-![H2](https://img.shields.io/badge/H2-v1.4.200-1F5D99?style=flat)
-![JUnit](https://img.shields.io/badge/JUnit-v5.8.2-25A162?style=flat&logo=junit5&logoColor=white)
 
 > API REST em **Spring Boot** para cadastro e gerenciamento de clientes, com seus documentos, endereço e telefones.
 
